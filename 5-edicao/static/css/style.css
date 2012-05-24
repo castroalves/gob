@@ -65,9 +65,8 @@ header {
 }
 
 .half {
-	float: left;
-	margin: 0 40px 0 0;
-	width: 470px;
+	margin: 0 auto;
+	width: 600px;
 }
 
 .last {
@@ -75,7 +74,6 @@ header {
 }
 
 .half #rj-top {
-	background: url("../images/cities/box-rj.jpg") 0 0 no-repeat;
 	height: 86px;
 	padding: 0;
 }
@@ -95,13 +93,11 @@ header {
 }
 
 .half .bottom {
-	background: url("../images/cities/box-down.jpg");
 	height: 1px;
 	margin: 0 0 50px;
 }
 
 .half div {
-	background: url("../images/cities/box-center.jpg");
 	padding: 0 40px 20px;
 }
 
@@ -176,6 +172,7 @@ header {
 	box-shadow: 3px 3px 0 0 #000000;
 	padding: 15px 20px;
 	margin: 0 0 30px;
+	text-align: center;
 }
 
 .speed li {
@@ -197,9 +194,11 @@ header {
 .half p {
 	padding: 5px 0 15px;
 	text-align: center;
-	font-family: 'DIN1451StdEngschrift';
-	font-size: 55px;
-	text-shadow: 2px 3px 0px #000000;
+	font-family: Helvetica, Tahoma, sans-serif;
+	font-size: 16px;
+	text-shadow: 1px 1px 0px #000000;
+	font-weight: normal;
+	line-height: 1.5em;
 }
 
 .half p.data {
@@ -364,9 +363,9 @@ header {
 
 /******************** footer ********************/
 footer {
-	background: url("../images/util/footer.jpg");
-	height: 275px;
-	margin: 40px 0 0;
+	background: url("../images/util/footer.jpg") no-repeat bottom;
+	height: 520px;
+	margin: 0;
 }
 
 footer article {
@@ -381,8 +380,9 @@ footer article h3 {
 }
 
 #support {
-	float: left;
-	width: 430px;
+	clear: both;
+	width: 400px;
+	margin: 0 auto;
 }
 
 #support img {
@@ -390,8 +390,9 @@ footer article h3 {
 }
 
 #organizers {
-	float: right;
-	width: 540px;
+	clear: both;
+	width: 400px;
+	margin: 50px auto 0;
 }
 
 #organizers a {
